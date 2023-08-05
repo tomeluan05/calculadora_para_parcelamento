@@ -92,5 +92,6 @@ limpar_campo.addEventListener('click', (e)=>{
     valor_produto.value = ''
     valor_entrada.value = ''
     resultado.innerHTML = ''
+    parcelas.value = 1;
 })
   
