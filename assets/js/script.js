@@ -19,7 +19,7 @@ calcular.addEventListener('click', (e)=>{
     if(valor_produto.value == '' || valor_entrada.value == ''){
         alert('Por favor, verifique se os campos estão preenchidos corretamente!')
     }
-    else if(valor_produto.value <= valor_entrada.value){
+    else if(valor_liquido <= 0){
         alert('O valor de entrada não pode ser maior ou igual ao valor do produto!')
     }
     else {
